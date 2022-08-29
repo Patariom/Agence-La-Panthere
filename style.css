@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+blockquote {
+    border: none;
+}
+
+cite {
+    font-weight: 300;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -667,12 +675,12 @@ a {
 }
 
 .statement-bloc-text {
-    line-height: 26px;
+    line-height: 22px;
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    font-weight: lighter;
-    max-width: 520px;
+    font-weight: 500;
+    max-width: 550px;
     margin: auto auto auto auto;
 }
 
