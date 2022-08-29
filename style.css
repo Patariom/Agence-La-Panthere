@@ -826,11 +826,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/Panthere_Banniere_Agence_Webdesign.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/Panthere_Banniere_Objectif.jpg");
 }
 
 @media (max-width: 1024px) {
