@@ -1009,6 +1009,7 @@ h4 {
     .btn-dwn {
         display: none;
     }
+    /** ATTENTION DISPLAY NONE **/
     .voffset {
         margin-top: 5px;
     }
