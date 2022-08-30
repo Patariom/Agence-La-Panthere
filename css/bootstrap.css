@@ -3144,10 +3144,10 @@ output {
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #555;
+    color: #C14F1C;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -3157,10 +3157,10 @@ output {
 }
 
 .form-control:focus {
-    border-color: #66afe9;
+    border-color: #C14F1C;
     outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(193, 79, 28, .85);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(193, 79, 28, .85);
 }
 
 .form-control::-moz-placeholder {
@@ -6129,9 +6129,9 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc
+    color: #a30b00;
+    background-color: #ffb3ad;
+    border-color: #ffa099;
 }
 
 .alert-warning hr {
