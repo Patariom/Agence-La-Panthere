@@ -834,6 +834,7 @@ h4 {
     background-image: url("img/Panthere_Banniere_Objectif.jpg");
 }
 
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1010,7 +1011,6 @@ h4 {
     .btn-dwn {
         display: none;
     }
-    /** ATTENTION DISPLAY NONE **/
     .voffset {
         margin-top: 5px;
     }
@@ -1035,6 +1035,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
