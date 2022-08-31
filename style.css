@@ -34,6 +34,16 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.col-sm-12 img {
+    width: 100px;
+    height: 100px;
+}
+
+.col-sm-6 img{
+    width: 320px;
+    height: 320px,
+}
+
 .bloc {
     width: 100%;
     clear: both;
