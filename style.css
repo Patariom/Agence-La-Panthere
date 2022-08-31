@@ -767,14 +767,16 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(15, 15, 15, 0.5);
-    padding: 40px 40px 40px 40px;
-}
-
 .bold-link {
     font-weight: 900;
     text-decoration: underline !important;
+}
+
+/********** Couleurs de fond **********/
+
+.black-background {
+    background-color: rgba(15, 15, 15, 0.5);
+    padding: 40px 40px 40px 40px;
 }
 
 .bgc-white {
@@ -789,10 +791,12 @@ h4 {
     background-color: #C14F1C;
 }
 
+/********** Text-Center White **********/
 .tc-white {
     color: #ffffff !important;
 }
 
+/********** Boutons **********/
 .btn-atomic-tangerine {
     background: #C14F1C;
     color: #FFFFFF !important;
@@ -803,6 +807,7 @@ h4 {
     color: #FFFFFF !important;
 }
 
+/**********  **********/
 .ltc-white {
     color: #FFFFFF !important;
 }
@@ -819,10 +824,14 @@ h4 {
     color: #c27956 !important;
 }
 
+/********** Icones **********/
+
 .icon-dark-slate-blue {
     color: #364577 !important;
     border-color: #364577 !important;
 }
+
+/********** Images de fond **********/
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
@@ -841,6 +850,16 @@ h4 {
 }
 
 
+/********** Mediaqueries **********/
+
+/* Desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .b-parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -866,17 +885,12 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
 @media (max-width: 991px) {
     .container {
@@ -893,11 +907,6 @@ h4 {
         position: relative;
     }
 
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -907,10 +916,10 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
+
+/* Smartphone */
 
 @media (max-width: 767px) {
     .page-container {
