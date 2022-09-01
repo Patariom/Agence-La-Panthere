@@ -17,13 +17,36 @@ blockquote {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid #A14317;
+}
+
+.btn.active.focus,
+.btn.active:focus-visible,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus-visible,
+.btn:focus-visible {
+    outline: 2px solid #ffffff;
+}
+
+.navbar-toggle:focus-visible {
+    outline: 2px solid #A14317;
+}
+
+.carousel-control:focus-visible {
+    outline: 2px solid #A14317;
+}
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -484,10 +507,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none !important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -594,6 +613,7 @@ a[data-lightbox]:hover img {
     max-width: 900px;
     margin: 0 auto 0;
 }
+
 
 #lightbox-modal .modal-dialog img {
     max-height: 90vh;

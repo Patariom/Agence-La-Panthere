@@ -63,8 +63,7 @@
 		<!-- Header- bloc-0 END -->
 		<main role="main">
 			<!-- Section Titre Principal - bloc-1-presentation -->
-			<section
-				class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+			<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 				id="bloc-1-hero">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
@@ -153,7 +152,7 @@
 			<!-- Section Les Missions - bloc-3-what-i-do -->
 			<section aria-labelledby="notre-mission"
 				class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
-				id="bloc-3-what-i-do">
+				>
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace black-background">
 						<div class="col-sm-12">
@@ -193,10 +192,13 @@
 						</div>
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
-						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/portfolio_creation-siteweb-journallocal.webp"
+						<div role=dialog class="col-sm-6">
+							<dialog>
+								<a href="#" data-lightbox="img/portfolio_creation-siteweb-journallocal.webp"
 								data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local"
-								data-frame="snapshot-lb"><img src="img/portfolio_creation-siteweb-journallocal.webp"
+								data-frame="snapshot-lb">
+							</dialog>
+								<img src="img/portfolio_creation-siteweb-journallocal.webp"
 									alt="Catalogues ouverts empilés les uns sur les autres."
 									class="img-responsive portfolio-thumb" /></a>
 							<h3 class="mg-md text-center">
