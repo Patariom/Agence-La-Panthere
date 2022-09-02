@@ -63,19 +63,20 @@
 		<!-- Header- bloc-0 END -->
 		<main role="main">
 			<!-- Section Titre Principal - bloc-1-presentation -->
-			<section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+			<section role="region" aria-labelledby="banniere-accueil" 
+				class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 				id="bloc-1-hero">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
-							<img src="img/logo_resize.png" class="center-block image-resize-mode" 
+							<img src="img/logo_resize.png" class="center-block image-resize-mode"
 								alt="Agence La Panthère, agence webdesign à Lyon" />
-							<h1 class="text-center hero-bloc-text tc-white ">
+							<h1 class="text-center hero-bloc-text tc-white " id="banniere-accueil">
 								Agence La Panthère
 							</h1>
 							<div class="text-center">
 								<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
-									id="cta-hero" aria-label="Accéder à la page Contact">Contact</a>
+									id="cta-hero" aria-label="Page Contact">Contact</a>
 							</div>
 						</div>
 					</div>
@@ -84,7 +85,7 @@
 			<!-- Section Titre Principal - bloc-1-presentation END -->
 
 			<!-- Section Présentation Service - bloc-2-services -->
-			<section aria-labelledby="nos-services" class="bloc bgc-white l-bloc" id="bloc-2-services">
+			<section role="region" aria-labelledby="nos-services" class="bloc bgc-white l-bloc" id="bloc-2-services">
 				<div class="container bloc-md">
 					<div class="row">
 						<div class="col-sm-12 mg-md text-center">
@@ -150,9 +151,8 @@
 			<!-- Section Présentation Service - bloc-2-services END -->
 
 			<!-- Section Les Missions - bloc-3-what-i-do -->
-			<section aria-labelledby="notre-mission"
-				class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
-				>
+			<section role="region" aria-labelledby="notre-mission"
+				class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace black-background">
 						<div class="col-sm-12">
@@ -181,7 +181,7 @@
 			<!-- Section Les Missions -bloc-3-what-i-do END -->
 
 			<!-- Section Portfolio - bloc-4-portfolio -->
-			<section aria-labelledby="notre-portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
+			<section role="region" aria-labelledby="notre-portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
 				id="bloc-4-portfolio">
 				<div class="container bloc-lg">
 					<div class="row">
@@ -193,7 +193,7 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-								<a href="#" data-lightbox="img/portfolio_creation-siteweb-journallocal.webp"
+							<a href="#" data-lightbox="img/portfolio_creation-siteweb-journallocal.webp"
 								data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local"
 								data-frame="snapshot-lb"><img src="img/portfolio_creation-siteweb-journallocal.webp"
 									alt="Catalogues ouverts empilés les uns sur les autres."
@@ -255,7 +255,7 @@
 			<!-- Section Portfolio -bloc-4-portfolio END -->
 
 			<!-- Section CTA Contact - bloc-5-cta -->
-			<section aria-labelledby="contact"
+			<section role="region" aria-labelledby="contact"
 				class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 				<div class="container bloc-lg">
 					<div class="row">
@@ -270,12 +270,12 @@
 				</div>
 			</section>
 			<!-- Section CTA Contact bloc-5-cta END -->
-		</main>
+			<!-- ScrollToTop Button -->
+			<div class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+					class="fa fa-chevron-up"></span></div>
+			<!-- ScrollToTop Button END-->
 
-		<!-- ScrollToTop Button -->
-		<div class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
-				class="fa fa-chevron-up"></span></div>
-		<!-- ScrollToTop Button END-->
+		</main>
 
 		<!-- Footer - bloc-8 -->
 		<footer role="contentinfo" class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
